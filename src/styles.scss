@@ -7,5 +7,55 @@
   justify-content: center;
   box-sizing: border-box;
   font-family:  'Poppins', sans-serif;
-  background-color: rgb(226, 174, 205);
+  background-color: #f1d2d8;
 }
+
+.btn2 {
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 0.5rem;
+    padding: 10px !important;
+  }
+  .btn-primary {
+    background: #231c2090;
+    color: #fff;
+  
+  
+    :hover {
+      color: #fff;
+      background: #de0086;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    }
+  }
+  
+  .btn-acent {
+    background: transparent;
+    color: #de0086;
+    border: 1px solid #ff009929;
+  
+  }
+  .btn-acent:hover {
+    color: #fff;
+    background: #de0086;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  }
+button {
+    border: 1px solid #ff009929;
+    border-radius: .2rem;
+  }
+  
+  button:hover {
+    color: #fff;
+    background: #de0086;
+  }
+  body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+  }
